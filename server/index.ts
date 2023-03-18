@@ -27,7 +27,7 @@ app.post('/api/evaluate-conversation', async (req, res) => {
       messages: [
         {
           role: 'system',
-          content: `Please evaluate in japanese the following web chat conversation:\n\n${conversation}\n\nEvaluation: `,
+          content: `Please evaluate and check for problems in communication the following web chat conversation:\n\n${conversation}\n\nEvaluation in Japanese: `,
         }
       ]
     });
