@@ -6,7 +6,7 @@
 
 1. Nodejs16.x系をインストール
 1. openaiのページにてAPIキーを取得
-1. .env.exampleをコピーし、OPENAI_API_KEYに取得したAPIキーの値をセット
+1. .env.exampleをコピーして.envを作成、OPENAI_API_KEYに取得したAPIキーの値をセット
 
 ```(bash)
 git clone https://github.com/genokamura/chat-evaluator.git
