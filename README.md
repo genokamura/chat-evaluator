@@ -4,10 +4,12 @@
 
 ## 起動方法
 
-Nodejs16.x系をインストール
+1. Nodejs16.x系をインストール
+1. openaiのページにてAPIキーを取得
+1. .env.exampleをコピーし、OPENAI_API_KEYに取得したAPIキーの値をセット
 
 ```(bash)
-git clone 
+git clone https://github.com/genokamura/chat-evaluator.git
 cd chat-evaluator
 npm install
 npm run start
