@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "target": "es2018",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "lib": ["es2018", "dom"],
+    "sourceMap": true,
+    "jsx": "react"
+  },
+  "include": ["server/**/*.ts"]
+}
+
